@@ -9,7 +9,6 @@ To run Angular Front end part of application. Run <b>npm install</b> in angular 
 
 Also you will need to import Database from this SQL. Database name and configuration is placed in <b>it255/config.php</b> file.<br/>
 
-Inside SQL folder there are Power Designer models and also SQL files for this project.
 
 ```sql
 
