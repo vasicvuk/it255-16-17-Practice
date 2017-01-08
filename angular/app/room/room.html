@@ -1,0 +1,15 @@
+<div class="col-lg-12">
+  <br/>Sobe<br/> 	<br/>
+  <div *ngIf="data">
+    Ime sobe: {{data.roomname}}
+    <br/>
+    Beds: {{data.beds}}
+    <br/>
+    <span *ngIf="data.tv == '1'">
+		TV: Ima
+	</span>
+    <span *ngIf="data.tv != '1'">
+		TV: Nema
+	</span><br/><br/>
+  </div>
+</div>

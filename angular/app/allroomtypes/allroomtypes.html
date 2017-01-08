@@ -1,0 +1,20 @@
+<div class="col-lg-12">
+  <br/>Sobe<br/> 	<br/>
+
+  <table class="table-stripped table">
+    <thead>
+    <tr>
+      <th>Ime tipa sobe</th>
+      <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let room of data">
+      <td>{{room.name}}</td>
+      <td>
+        <button class="btn btn-danger" (click)="removeRoomType($event, room.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
